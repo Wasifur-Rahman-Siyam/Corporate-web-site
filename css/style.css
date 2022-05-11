@@ -11176,6 +11176,13 @@ footer button {
   padding: 0.5rem;
 }
 
+.feature-section {
+  padding: 60px 0;
+}
+.feature-section .icon-container {
+  font-size: 3rem;
+}
+
 .extra-margin {
   margin-top: 80px;
 }
