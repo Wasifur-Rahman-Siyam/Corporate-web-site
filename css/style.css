@@ -11158,6 +11158,24 @@ footer button {
   background-image: linear-gradient(90deg, #8b62ff, #3b1bff);
 }
 
+.hero-section {
+  background-image: url(../../assets/img/img-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 12% 0;
+  opacity: 0.95;
+}
+.hero-section h1, .hero-section .h1, .hero-section p {
+  color: #fff;
+}
+.hero-section button {
+  background-image: linear-gradient(90deg, #8b62ff, #3b1bff);
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+}
+
 .extra-margin {
   margin-top: 80px;
 }
