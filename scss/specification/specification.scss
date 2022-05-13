@@ -1,0 +1,30 @@
+.specification-section{
+padding:60px 0;
+
+.space
+{
+    list-style: none;
+    padding-left: 40px;
+}
+
+.space li{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.space li::before{
+    font-family: 'Font Awesome 5 Free';
+    font-size: 2rem;
+    content: '\f058';
+    position: absolute;
+    left: -50px;
+    color: #8b62ff;
+    margin-top: -2px;
+}
+
+.brands{
+    img{
+        margin: 50px auto;
+    }
+}
+}

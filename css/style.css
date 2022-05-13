@@ -11120,6 +11120,7 @@ textarea.form-control-lg {
 }
 .navbar {
   height: 80px;
+  z-index: 100;
 }
 .navbar .download {
   padding: 0.5rem;
@@ -11160,11 +11161,9 @@ footer button {
 
 .hero-section {
   background-image: url(../../assets/img/img-home.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
   padding: 12% 0;
   opacity: 0.95;
+  z-index: 1;
 }
 .hero-section h1, .hero-section .h1, .hero-section p {
   color: #fff;
@@ -11195,6 +11194,41 @@ footer button {
   height: 1rem !important;
   border: 1px solid #000;
   border-radius: 50%;
+}
+
+.Call-to-action-section {
+  padding: 60px 0px;
+  background-color: #0c0633;
+  color: #fff;
+}
+.Call-to-action-section .btn {
+  background-image: linear-gradient(90deg, #8b62ff, #3b1bff);
+  outline: none;
+  border: none;
+}
+
+.specification-section {
+  padding: 60px 0;
+}
+.specification-section .space {
+  list-style: none;
+  padding-left: 40px;
+}
+.specification-section .space li {
+  position: relative;
+  margin-bottom: 30px;
+}
+.specification-section .space li::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 2rem;
+  content: "\f058";
+  position: absolute;
+  left: -50px;
+  color: #8b62ff;
+  margin-top: -2px;
+}
+.specification-section .brands img {
+  margin: 50px auto;
 }
 
 .extra-margin {
