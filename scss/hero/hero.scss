@@ -7,10 +7,10 @@
     h1,p{
         color: #fff;
     }
-    button{
-        background-image: linear-gradient(90deg, #8b62ff, #3b1bff);
-        outline: none;
-        border: none;
-        padding: 0.5rem;
-    }
+    .btn{
+            background-image: linear-gradient(90deg, #8b62ff, #3b1bff);
+            outline: none;
+            border: none;
+            padding: 0.5rem;
+        }
 }
