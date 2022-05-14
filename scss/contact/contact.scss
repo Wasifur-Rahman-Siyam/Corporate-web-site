@@ -1,0 +1,33 @@
+
+
+    .contact-form{
+        margin-top: 30px;
+    
+        .form-group {
+            margin-bottom: 15px;
+        }
+    
+        .form-control {
+            width: 100%;
+            height: 45px;
+            padding: 8px 12px;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #eee;
+            border-radius: 2px;
+        }
+    
+        .btn{
+            background-image: linear-gradient(90deg, #8b62ff, #3b1bff);
+            outline: none;
+            border: none;
+        }
+    }
+
+    h1, h2, h3 {
+        margin-top: 27px;
+        margin-bottom: 13.5px;
+    }
+    p {
+        margin: 0 0 14px;
+    }

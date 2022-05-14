@@ -9,7 +9,12 @@
 @import "carousel/carousel.scss";
 @import "cta/cta.scss";
 @import "specification/specification.scss";
+@import "pricing/pricing.scss";
+@import "contact/contact.scss";
 //Custome css code
 .extra-margin{
     margin-top: 80px;
+}
+body {
+    font-family: Fira Sans,Helvetica,Arial,sans-serif;
 }

@@ -11231,8 +11231,96 @@ footer button {
   margin: 50px auto;
 }
 
+.pricing-section {
+  padding: 80px 0px;
+}
+.pricing-section .price-card {
+  height: 100%;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.pricing-section .vartical-gap {
+  flex: 1;
+}
+.pricing-section .price-header {
+  padding: 5rem 0rem;
+  color: #fff;
+}
+.pricing-section .personal {
+  background-color: #4e74ff;
+}
+.pricing-section .profesional {
+  background-color: #3cbffa;
+}
+.pricing-section .business {
+  background-color: #182946;
+}
+.pricing-section .price-body {
+  margin: 3rem 2rem 0rem;
+}
+.pricing-section .features {
+  list-style: none;
+}
+.pricing-section .features li {
+  position: relative;
+  margin-bottom: 30px;
+}
+.pricing-section .features li::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.5rem;
+  content: "\f058";
+  position: absolute;
+  left: -40px;
+  color: #8b62ff;
+  margin-top: -2px;
+}
+.pricing-section .price-footer {
+  margin: 0 2rem;
+}
+.pricing-section .btn {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(90deg, #8b62ff, #3b1bff);
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+.contact-form .form-control {
+  width: 100%;
+  height: 45px;
+  padding: 8px 12px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #eee;
+  border-radius: 2px;
+}
+.contact-form .btn {
+  background-image: linear-gradient(90deg, #8b62ff, #3b1bff);
+  outline: none;
+  border: none;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 27px;
+  margin-bottom: 13.5px;
+}
+
+p {
+  margin: 0 0 14px;
+}
+
 .extra-margin {
   margin-top: 80px;
+}
+
+body {
+  font-family: Fira Sans, Helvetica, Arial, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
